@@ -56,10 +56,9 @@
 		05E6135623014AD100550D83 /* app-Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				05E6136C2303E4B700550D83 /* Controller */,
 				05E613692301503400550D83 /* View */,
 				05E6135723014AD100550D83 /* AppDelegate.swift */,
-				05E6135923014AD100550D83 /* ViewController.swift */,
-				05E6135B23014AD100550D83 /* Main.storyboard */,
 				05E6135E23014AD200550D83 /* Assets.xcassets */,
 				05E6136023014AD200550D83 /* LaunchScreen.storyboard */,
 				05E6136323014AD200550D83 /* Info.plist */,
@@ -70,9 +69,18 @@
 		05E613692301503400550D83 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05E6135B23014AD100550D83 /* Main.storyboard */,
 				05E6136A2301509600550D83 /* BorderButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		05E6136C2303E4B700550D83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05E6135923014AD100550D83 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
     }
-
-
+    //this function will be called when we hit the back button on VC#2
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
+        
+    }
 }
 
